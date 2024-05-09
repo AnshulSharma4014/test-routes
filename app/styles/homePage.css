@@ -1,0 +1,38 @@
+.sections {
+    display: flex;
+    justify-content: space-between;
+    padding-block-start: 30px;
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+}
+
+.box {
+    border: 1px solid #ccc;
+    width: 45%; /* Adjust as needed */
+}
+
+.section-header {
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    color:#333
+}
+
+.listing-section {
+    list-style: none;
+    padding: 10px;
+    background-color: azure;
+}
+
+.listing-section li {
+    margin-bottom: 8px;
+}
+
+.listing-section a {
+    text-decoration: none;
+    color: #1c19e7;
+}
+
+.listing-section a:hover {
+    text-decoration: underline;
+}
